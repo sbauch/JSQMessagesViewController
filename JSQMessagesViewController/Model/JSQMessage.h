@@ -32,7 +32,7 @@
 /**
  *  Returns the string identifier that uniquely identifies the user who sent the message. 
  */
-@property (copy, nonatomic, readonly) NSString *senderId;
+@property (copy, nonatomic) NSString *senderId;
 
 /**
  *  Returns the display name for the user who sent the message. This value does not have to be unique.
